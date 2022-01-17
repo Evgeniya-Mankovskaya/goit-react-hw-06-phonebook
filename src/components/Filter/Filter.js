@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 function Filter({ value, onChange }) {
   return (
     <label className={s.label}>
-      Find contacts by name
+      Find contact by name
       <input
         className={s.input}
         type="text"
